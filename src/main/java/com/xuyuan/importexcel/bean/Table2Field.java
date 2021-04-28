@@ -32,6 +32,7 @@ public class Table2Field implements Serializable {
     }
 
     public Table2Field(User u) {
+        this.id = u.getId();
         this.fieldA = u.getTable2FieldA();
         this.fieldB = u.getTable2FieldB();
     }
